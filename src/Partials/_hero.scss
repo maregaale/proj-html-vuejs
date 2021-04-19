@@ -37,4 +37,29 @@
       height: 100%;
     }
   }
+
+  .icon_poster {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4px;
+    border-radius: 5px 0 0 5px;
+    background-color: #fff;
+
+    * {
+      margin: 5px;
+    }
+
+    img {
+      width: 18px;
+    }
+
+    i {
+      font-size: 18px;
+      color: #000;
+    }
+  }
 }

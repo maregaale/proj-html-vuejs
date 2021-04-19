@@ -545,6 +545,27 @@ ul a {
 .hero .images_hero_container img {
   height: 100%;
 }
+.hero .icon_poster {
+  position: absolute;
+  top: 70px;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4px;
+  border-radius: 5px 0 0 5px;
+  background-color: #fff;
+}
+.hero .icon_poster * {
+  margin: 5px;
+}
+.hero .icon_poster img {
+  width: 18px;
+}
+.hero .icon_poster i {
+  font-size: 18px;
+  color: #000;
+}
 
 h1, h2, h3 {
   color: #3f3a64;
