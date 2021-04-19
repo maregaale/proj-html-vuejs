@@ -9,6 +9,10 @@ body {
   font-size: 16px;
 }
 
+header {
+  background-color: #e9e6e3;
+}
+
 .flex {
   display: flex;
   flex-direction: row;
@@ -148,36 +152,33 @@ ul a {
   margin: 100px;
 }
 
-header {
-  background-color: #e9e6e3;
-}
-header .navbar_and_logo {
+.navbar_and_logo {
   justify-content: space-between;
 }
-header .main_logo {
+.navbar_and_logo .main_logo {
   width: 150px;
 }
-header .main_logo img {
+.navbar_and_logo .main_logo img {
   width: 100%;
 }
-header .main_nav li a {
+.navbar_and_logo .main_nav li a {
   color: #3f3a64;
 }
-header .main_nav li a i.fas {
+.navbar_and_logo .main_nav li a i.fas {
   font-size: 12px;
   margin-top: 2px;
 }
-header .shopping_and_user img {
+.navbar_and_logo .shopping_and_user img {
   width: 18px;
 }
-header .shopping_and_user .user {
+.navbar_and_logo .shopping_and_user .user {
   width: 16px;
   margin-left: 30px;
 }
-header .shopping_and_user .shopping {
+.navbar_and_logo .shopping_and_user .shopping {
   position: relative;
 }
-header .shopping_and_user .shopping .add_number {
+.navbar_and_logo .shopping_and_user .shopping .add_number {
   font-size: 12px;
   width: 15px;
   height: 15px;

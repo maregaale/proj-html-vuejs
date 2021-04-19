@@ -1,44 +1,40 @@
-header {
-    background-color: $colorHeader;
-
-    .navbar_and_logo {
-        justify-content: space-between;
-    }
-
+.navbar_and_logo {
+    justify-content: space-between;
+    
     .main_logo {
         width: 150px;
-
+    
         img {
             width: 100%;
         }
     }
-
+    
     .main_nav li {
-
+    
         a {
             color: $primaryColorText;
-
+    
             i.fas {
                 font-size: $xsFont;
                 margin-top: 2px;
             }
         }
     }
-
+    
     .shopping_and_user {
         img {
             width: 18px;
         }
-
+    
         .user {
             width: 16px;
             margin-left: 30px;
         }
-
+    
         .shopping {
             position: relative;
-
-
+    
+    
             .add_number {
                 font-size: $xsFont;
                 width: 15px;
@@ -56,3 +52,4 @@ header {
         }
     }
 }
+

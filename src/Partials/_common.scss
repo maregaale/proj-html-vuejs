@@ -11,6 +11,10 @@ body {
     font-size: $mFont;
 }
 
+header {
+    background-color: $colorHeader;
+}
+
 .flex {
     display: flex;
     flex-direction: row;
