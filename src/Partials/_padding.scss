@@ -1,0 +1,20 @@
+// padding sopra e sotto
+@for $i from 1 through 10 {
+    .padd_up_down_#{$i}0 {
+        padding: $i * 10+px 0;
+    }
+}
+
+// padding laterali
+@for $i from 1 through 10 {
+    .padd_left_right#{$i}0 {
+        padding: 0 $i * 10+px;
+    }
+}
+
+// padding
+@for $i from 1 through 10 {
+    .padd_#{$i}0 {
+        padding: $i * 10+px;
+    }
+}
