@@ -13,6 +13,12 @@
 }
 
 @for $i from 1 through 10 {
+    .mrg_left_right_#{$i * 5}  {
+        margin: 0 $i * 5+px;
+    }
+}
+
+@for $i from 1 through 10 {
     .mrg_left_#{$i}0 {
         margin-left: $i * 10+px;
     }
