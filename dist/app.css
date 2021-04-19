@@ -112,6 +112,86 @@ ul a {
   margin: 0 100px;
 }
 
+.mrg_left_10 {
+  margin-left: 10px;
+}
+
+.mrg_left_20 {
+  margin-left: 20px;
+}
+
+.mrg_left_30 {
+  margin-left: 30px;
+}
+
+.mrg_left_40 {
+  margin-left: 40px;
+}
+
+.mrg_left_50 {
+  margin-left: 50px;
+}
+
+.mrg_left_60 {
+  margin-left: 60px;
+}
+
+.mrg_left_70 {
+  margin-left: 70px;
+}
+
+.mrg_left_80 {
+  margin-left: 80px;
+}
+
+.mrg_left_90 {
+  margin-left: 90px;
+}
+
+.mrg_left_100 {
+  margin-left: 100px;
+}
+
+.mrg_right_10 {
+  margin-right: 10px;
+}
+
+.mrg_right_20 {
+  margin-right: 20px;
+}
+
+.mrg_right_30 {
+  margin-right: 30px;
+}
+
+.mrg_right_40 {
+  margin-right: 40px;
+}
+
+.mrg_right_50 {
+  margin-right: 50px;
+}
+
+.mrg_right_60 {
+  margin-right: 60px;
+}
+
+.mrg_right_70 {
+  margin-right: 70px;
+}
+
+.mrg_right_80 {
+  margin-right: 80px;
+}
+
+.mrg_right_90 {
+  margin-right: 90px;
+}
+
+.mrg_right_100 {
+  margin-right: 100px;
+}
+
 .mrg_10 {
   margin: 10px;
 }
@@ -390,4 +470,47 @@ ul a {
 
 .br_20 {
   border-radius: 20px;
+}
+
+.hero {
+  height: 600px;
+  position: relative;
+}
+.hero::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 300px;
+  background-image: url("../img/jumbo-overlay.svg");
+  background-repeat: no-repeat;
+  transform: rotateX(180deg);
+}
+.hero .text {
+  width: 340px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.hero .text p {
+  color: #8c89a2;
+}
+
+h1, h2, h3 {
+  color: #3f3a64;
+}
+
+h1, h2 {
+  line-height: 40px;
+  font-size: 35px;
+}
+
+.btn {
+  border-radius: 5px;
+  padding: 13px 28px;
+  border: 0;
+  color: #fff;
+  background-color: #20ad96;
+  font-size: 500;
 }

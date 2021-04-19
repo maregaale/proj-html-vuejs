@@ -1,0 +1,27 @@
+.hero {
+  height: 600px;
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 300px;
+    background-image: url("../img/jumbo-overlay.svg");
+    background-repeat: no-repeat;
+    transform: rotateX(180deg);
+  }
+
+  .text {
+    width: 340px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    
+    p {
+      color: $ternaryColorText;
+    }
+  }
+}
