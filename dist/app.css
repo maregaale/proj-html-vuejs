@@ -475,6 +475,8 @@ ul a {
 .hero {
   height: 600px;
   position: relative;
+  text-align: right;
+  padding-top: 40px;
 }
 .hero::before {
   position: absolute;
@@ -492,9 +494,16 @@ ul a {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  text-align: left;
 }
 .hero .text p {
   color: #8c89a2;
+}
+.hero .images_hero_container {
+  height: 520px;
+}
+.hero .images_hero_container img {
+  height: 100%;
 }
 
 h1, h2, h3 {
