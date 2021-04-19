@@ -152,33 +152,34 @@ ul a {
   margin: 100px;
 }
 
-.navbar_and_logo {
+.navbar_and_logo .container {
   justify-content: space-between;
 }
-.navbar_and_logo .main_logo {
+.navbar_and_logo .container .main_logo {
   width: 150px;
 }
-.navbar_and_logo .main_logo img {
+.navbar_and_logo .container .main_logo img {
   width: 100%;
 }
-.navbar_and_logo .main_nav li a {
+.navbar_and_logo .container .main_nav li a {
   color: #3f3a64;
 }
-.navbar_and_logo .main_nav li a i.fas {
+.navbar_and_logo .container .main_nav li a i.fas {
   font-size: 12px;
   margin-top: 2px;
 }
-.navbar_and_logo .shopping_and_user img {
+.navbar_and_logo .container .shopping_and_user img {
   width: 18px;
+  cursor: pointer;
 }
-.navbar_and_logo .shopping_and_user .user {
+.navbar_and_logo .container .shopping_and_user .user {
   width: 16px;
   margin-left: 30px;
 }
-.navbar_and_logo .shopping_and_user .shopping {
+.navbar_and_logo .container .shopping_and_user .shopping {
   position: relative;
 }
-.navbar_and_logo .shopping_and_user .shopping .add_number {
+.navbar_and_logo .container .shopping_and_user .shopping .add_number {
   font-size: 12px;
   width: 15px;
   height: 15px;
@@ -192,19 +193,19 @@ ul a {
   color: #fff;
   font-weight: bold;
 }
-.navbar_and_logo .searching {
+.navbar_and_logo .container .searching {
   background-color: #fff;
-  border-radius: 5px;
   margin-left: 20px;
 }
-.navbar_and_logo .searching input {
+.navbar_and_logo .container .searching input {
   border: 0;
 }
-.navbar_and_logo .searching input:focus {
+.navbar_and_logo .container .searching input:focus {
   outline: transparent;
 }
-.navbar_and_logo .searching i {
+.navbar_and_logo .container .searching i {
   color: #20ad96;
+  cursor: pointer;
 }
 
 .padd_up_down_10 {
