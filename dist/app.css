@@ -192,6 +192,20 @@ ul a {
   color: #fff;
   font-weight: bold;
 }
+.navbar_and_logo .searching {
+  background-color: #fff;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+.navbar_and_logo .searching input {
+  border: 0;
+}
+.navbar_and_logo .searching input:focus {
+  outline: transparent;
+}
+.navbar_and_logo .searching i {
+  color: #20ad96;
+}
 
 .padd_up_down_10 {
   padding: 10px 0;
@@ -311,4 +325,68 @@ ul a {
 
 .padd_100 {
   padding: 100px;
+}
+
+.br_5 {
+  border-radius: 5px;
+}
+
+.br_6 {
+  border-radius: 6px;
+}
+
+.br_7 {
+  border-radius: 7px;
+}
+
+.br_8 {
+  border-radius: 8px;
+}
+
+.br_9 {
+  border-radius: 9px;
+}
+
+.br_10 {
+  border-radius: 10px;
+}
+
+.br_11 {
+  border-radius: 11px;
+}
+
+.br_12 {
+  border-radius: 12px;
+}
+
+.br_13 {
+  border-radius: 13px;
+}
+
+.br_14 {
+  border-radius: 14px;
+}
+
+.br_15 {
+  border-radius: 15px;
+}
+
+.br_16 {
+  border-radius: 16px;
+}
+
+.br_17 {
+  border-radius: 17px;
+}
+
+.br_18 {
+  border-radius: 18px;
+}
+
+.br_19 {
+  border-radius: 19px;
+}
+
+.br_20 {
+  border-radius: 20px;
 }

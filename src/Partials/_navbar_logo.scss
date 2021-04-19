@@ -1,6 +1,6 @@
 .navbar_and_logo {
     justify-content: space-between;
-    
+
     .main_logo {
         width: 150px;
     
@@ -50,6 +50,27 @@
                 font-weight: bold;
             }
         }
+    }
+
+    .searching {
+        background-color: #fff;
+        border-radius: 5px;
+        margin-left: 20px;
+
+
+        input {
+            border: 0;
+
+            &:focus {
+                outline: transparent;
+            }
+        }
+
+        i {
+            color: $primaryColorButtons;
+        }
+
+
     }
 }
 

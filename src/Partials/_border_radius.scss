@@ -1,0 +1,6 @@
+// margini sopra e sotto
+@for $i from 5 through 20 {
+ .br_#{$i} {
+     border-radius: $i+px;
+ }
+}
