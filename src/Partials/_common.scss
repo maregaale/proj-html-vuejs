@@ -17,6 +17,14 @@ body {
     align-items: center;
 }
 
+ul {
+    list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+}
+
 // contenitori
 .container {
     margin: 0 auto;

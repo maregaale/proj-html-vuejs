@@ -7,7 +7,7 @@
 
 // margini laterali
 @for $i from 1 through 10 {
-    .mrg_left_right#{$i}0 {
+    .mrg_left_right_#{$i}0 {
         margin: 0 $i * 10+px;
     }
 }
