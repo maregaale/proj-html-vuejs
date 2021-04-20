@@ -1,0 +1,54 @@
+.course {
+  width: calc((100% / 3) - 20px);
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  position: relative;
+
+  .price {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: $primaryColorButtons;
+    padding: 7px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 0 0 0 5px;
+
+    span {
+      font-size: $sFont;
+    }
+  }
+
+  .poster {
+    width: 100%;
+  }
+
+  .info {
+    width: 78%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+    .img_container {
+      border-radius: 50%;
+      overflow: hidden;
+      width: 32px;
+      height: 32px;
+    }
+
+    p {
+      color: $courseColor;
+      font-size: $sFont;
+    }
+
+    h3 {
+      font-size: $mlFont;
+      line-height: 28px;
+    }
+
+    .lessons_students {
+      color: $courseColor;
+      font-size: $xsFont;
+    }
+  }
+}

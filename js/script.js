@@ -42,7 +42,7 @@ const app = new Vue ({
                 poster: "course-02-480x298.jpg",
                 lessons: 20,
                 students: 50,
-                price: "$40.00",
+                price: "$40",
             },
         ],
     },

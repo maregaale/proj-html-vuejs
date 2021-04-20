@@ -287,33 +287,35 @@
 					<div class="courses">
 						<div class="container flex">
 							<!-- course -->
-							<div v-for="course in courses" class="course">
+							<div v-for="course in courses" class="course mrg_10">
 								<!-- price -->
-								<div class="price">{{course.price}}</div>
+								<div class="price">{{course.price}}<span>.00</span> </div>
 								<!-- /price -->
 								
 								<!-- poster -->
-								<img :src="'img/' + course.poster" alt="">
+								<img class="poster" :src="'img/' + course.poster" alt="">
 								<!-- /poster -->
 
 								<!-- info -->
-								<div class="info">
+								<div class="info mrg_up_down_20">
 									<!-- info isctruttore -->
 									<div class="instructor_info flex">
-										<img :src="'img/' + course.intructorImg" alt="">
+										<div class="img_container mrg_right_20">
+											<img :src="'img/' + course.intructorImg" alt="">
+										</div>
 										<p>{{course.instructor}}</p>
 									</div>
 									<!-- /info isctruttore -->
 
 									<!-- titolo -->
-									<div class="course_name">
+									<div class="course_name mrg_up_down_10">
 										<h3>{{course.name}}</h3>
 									</div>
 									<!-- /titolo -->
 
 									<!-- lezioni e studenti -->
-									<div class="lessons_students flex">
-										<div class="lessons">
+									<div class="lessons_students flex mrg_up_down_20">
+										<div class="lessons mrg_right_20">
 											<i class="far fa-file-alt"></i>
 											{{course.lessons}} Lessons
 										</div>

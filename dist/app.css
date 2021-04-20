@@ -645,6 +645,7 @@ h4 {
 #construct .construct_text {
   width: 50%;
   align-self: flex-start;
+  padding-left: 20px;
 }
 #construct .construct_text h3 span {
   font-weight: normal;
@@ -663,6 +664,7 @@ h4 {
 #construct .open_box .title h3 {
   color: #fff;
   font-weight: bold;
+  font-size: 18px;
 }
 #construct .open_box .title i {
   position: absolute;
@@ -712,9 +714,7 @@ h4 {
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: center;
-}
-#featured_courses .courses .container .course {
-  width: calc(100% / 3);
+  padding: 10px 0;
 }
 
 .icon_poster {
@@ -738,4 +738,51 @@ h4 {
 .icon_poster i {
   font-size: 18px;
   color: #000;
+}
+
+.course {
+  width: calc((100% / 3) - 20px);
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  position: relative;
+}
+.course .price {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #20ad96;
+  padding: 7px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 0 0 0 5px;
+}
+.course .price span {
+  font-size: 14px;
+}
+.course .poster {
+  width: 100%;
+}
+.course .info {
+  width: 78%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.course .info .img_container {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 32px;
+  height: 32px;
+}
+.course .info p {
+  color: #727272;
+  font-size: 14px;
+}
+.course .info h3 {
+  font-size: 18px;
+  line-height: 28px;
+}
+.course .info .lessons_students {
+  color: #727272;
+  font-size: 12px;
 }
