@@ -1,0 +1,19 @@
+#goals {
+  background-color: $secondaryColorSections;
+  text-align: center;
+
+  .goal {
+    width: 25%;
+
+    h2 {
+      color: $primaryColorButtons;
+      margin: 0;
+      margin-bottom: 20px;
+    }
+  
+    h5 {
+      color: $primaryColorText;
+    }
+  }
+
+}

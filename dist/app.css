@@ -709,3 +709,19 @@ h4 {
   color: #8c89a2;
   cursor: pointer;
 }
+
+#goals {
+  background-color: #faf8f6;
+  text-align: center;
+}
+#goals .goal {
+  width: 25%;
+}
+#goals .goal h2 {
+  color: #20ad96;
+  margin: 0;
+  margin-bottom: 20px;
+}
+#goals .goal h5 {
+  color: #3f3a64;
+}
