@@ -1,15 +1,42 @@
 #invitation {
-
-  .invitation_text {
-    width: 45%;
-
-    i {
-      color: $primaryColorButtons;
+  .pace {
+    align-items: flex-start;
+    .invitation_text {
+      width: 45%;
+  
+      i {
+        color: $primaryColorButtons;
+      }
+  
+      p {
+        color: $h4ColorText;
+        font-size: $sFont;
+      }
     }
 
-    p {
-      color: $h4ColorText;
-      font-size: $sFont;
+    .invitation_images {
+      position: relative;
+
+      .invitation-1 {
+        height: 450px;
+        position: relative;
+        z-index: 5;
+      }
+
+      .invitation-2 {
+        position: absolute;
+        z-index: 0;
+        left: -80px;
+        top: 114px;
+        height: 400px;
+      }
+
+      .invitation-3 {
+        position: absolute;
+        z-index: 0;
+        left: 330px;
+        top: 250px;
+      }
     }
   }
 }

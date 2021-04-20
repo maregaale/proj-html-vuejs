@@ -923,13 +923,37 @@ h4 {
   font-size: 12px;
 }
 
-#invitation .invitation_text {
+#invitation .pace {
+  align-items: flex-start;
+}
+#invitation .pace .invitation_text {
   width: 45%;
 }
-#invitation .invitation_text i {
+#invitation .pace .invitation_text i {
   color: #20ad96;
 }
-#invitation .invitation_text p {
+#invitation .pace .invitation_text p {
   color: #816969;
   font-size: 14px;
+}
+#invitation .pace .invitation_images {
+  position: relative;
+}
+#invitation .pace .invitation_images .invitation-1 {
+  height: 450px;
+  position: relative;
+  z-index: 5;
+}
+#invitation .pace .invitation_images .invitation-2 {
+  position: absolute;
+  z-index: 0;
+  left: -80px;
+  top: 114px;
+  height: 400px;
+}
+#invitation .pace .invitation_images .invitation-3 {
+  position: absolute;
+  z-index: 0;
+  left: 330px;
+  top: 250px;
 }
