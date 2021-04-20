@@ -623,6 +623,8 @@ h4 {
   font-weight: normal;
 }
 #today .today_cards {
+  margin-top: 70px;
+  margin-bottom: 70px;
   width: 100%;
 }
 #today .today_cards .today_card {
