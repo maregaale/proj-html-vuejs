@@ -707,6 +707,12 @@ h4 {
   color: #3f3a64;
 }
 
+#featured_courses {
+  background: white;
+  background: linear-gradient(180deg, white 0%, #f6f6f6 100%);
+  border-bottom-left-radius: 100% 20%;
+  border-bottom-right-radius: 100% 20%;
+}
 #featured_courses .title {
   text-align: center;
 }
