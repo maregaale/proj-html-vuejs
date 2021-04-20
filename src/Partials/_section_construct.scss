@@ -1,0 +1,23 @@
+#construct {
+  position: relative;
+
+  .underlay {
+    width: 390px;
+    position: absolute;
+    left: 77px;
+    top: 180px;
+  }
+
+  .construct_images {
+    width: 50%;
+
+    .perspective {
+      position: relative;
+    }
+  }
+
+  .construct_text {
+    width: 50%;
+    align-self: flex-start;
+  }
+}

@@ -524,6 +524,7 @@ ul a {
 }
 .hero::before {
   position: absolute;
+  z-index: 0;
   content: "";
   left: 0;
   right: 0;
@@ -548,6 +549,7 @@ ul a {
 }
 .hero .images_hero_container img {
   height: 100%;
+  position: relative;
 }
 .hero .icon_poster {
   position: absolute;
@@ -624,7 +626,6 @@ h4 {
 }
 #today .today_cards {
   margin-top: 70px;
-  margin-bottom: 70px;
   width: 100%;
 }
 #today .today_cards .today_card {
@@ -644,4 +645,24 @@ h4 {
 }
 #today .today_cards .today_card .btn:hover {
   background-color: #f8f8f8;
+}
+
+#construct {
+  position: relative;
+}
+#construct .underlay {
+  width: 390px;
+  position: absolute;
+  left: 77px;
+  top: 180px;
+}
+#construct .construct_images {
+  width: 50%;
+}
+#construct .construct_images .perspective {
+  position: relative;
+}
+#construct .construct_text {
+  width: 50%;
+  align-self: flex-start;
 }
