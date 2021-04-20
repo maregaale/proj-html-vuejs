@@ -10,6 +10,11 @@ h1, h2 {
 
 h2 {
   margin: 25px 0;
+
+  span {
+    color: $primaryColorButtons;
+    font-weight: normal;
+  }
 }
 
 h3 {

@@ -177,7 +177,7 @@
 					</div>
 					<!-- /cards -->
 				</section>
-				<!-- sezione today -->
+				<!-- /sezione today -->
 
 				<!-- sezione construct -->
 				<section id="construct">
@@ -237,7 +237,7 @@
 					</div>
 
 				</section>
-				<!-- sezione construct -->
+				<!-- /sezione construct -->
 
 				<!-- sezione goals -->
 				<section id="goals">
@@ -272,11 +272,66 @@
 
 					</div>
 				</section>
-				<!-- sezione goals -->
+				<!-- /sezione goals -->
 
 				<!-- sezione featured_courses -->
 				<section id="featured_courses">
+					<!-- titoli -->
+					<div class="title container">
+						<h4>choose where you'd like to begin</h4>
+						<h2>Latest Featured <span>Courses</span></h2>
+					</div>
+					<!-- /titoli -->
 
+					<!-- corsi -->
+					<div class="courses">
+						<div class="container flex">
+							<!-- course -->
+							<div v-for="course in courses" class="course">
+								<!-- price -->
+								<div class="price">{{course.price}}</div>
+								<!-- /price -->
+								
+								<!-- poster -->
+								<img :src="'img/' + course.poster" alt="">
+								<!-- /poster -->
+
+								<!-- info -->
+								<div class="info">
+									<!-- info isctruttore -->
+									<div class="instructor_info flex">
+										<img :src="'img/' + course.intructorImg" alt="">
+										<p>{{course.instructor}}</p>
+									</div>
+									<!-- /info isctruttore -->
+
+									<!-- titolo -->
+									<div class="course_name">
+										<h3>{{course.name}}</h3>
+									</div>
+									<!-- /titolo -->
+
+									<!-- lezioni e studenti -->
+									<div class="lessons_students flex">
+										<div class="lessons">
+											<i class="far fa-file-alt"></i>
+											{{course.lessons}} Lessons
+										</div>
+
+										<div class="students">
+											<i class="far fa-user"></i>
+											{{course.students}} Students
+										</div>
+									</div>
+									<!-- /lezioni e studenti -->
+								</div>
+								<!-- /info -->
+							</div>
+							<!-- /course -->
+
+						</div>
+					</div>
+					<!-- /corsi -->
 				</section>
 				<!-- sezione featured_courses -->
 
@@ -284,19 +339,19 @@
 				<section id="invitation">
 
 				</section>
-				<!-- sezione invitation -->
+				<!-- /sezione invitation -->
 
 				<!-- sezione events -->
 				<section id="events">
 
 				</section>
-				<!-- sezione events -->
+				<!-- /sezione events -->
 
 				<!-- sezione stories -->
 				<section id="stories">
 
 				</section>
-				<!-- sezione stories -->
+				<!-- /sezione stories -->
 			</main>
 			<!-- /corpo del progetto -->
 

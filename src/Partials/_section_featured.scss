@@ -1,0 +1,17 @@
+#featured_courses {
+  .title {
+    text-align: center;
+  }
+
+  .courses {
+    .container {
+      flex-wrap: wrap;
+      align-items: flex-start;
+      justify-content: center;
+
+      .course {
+        width: calc(100% / 3);
+      }
+    }
+  }
+}

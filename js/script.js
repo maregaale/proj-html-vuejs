@@ -33,6 +33,18 @@ const app = new Vue ({
                 chevron: true,
             }
         ],
+
+        courses: [
+            {
+                name: "Learning to Write as a Professional Author",
+                instructor: "Blanche Fields",
+                intructorImg: "73ee246daf47502812ccefc84bf02898.jpeg",
+                poster: "course-02-480x298.jpg",
+                lessons: 20,
+                students: 50,
+                price: "$40.00",
+            },
+        ],
     },
     
 });
