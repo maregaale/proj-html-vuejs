@@ -579,7 +579,8 @@ h1, h2, h3 {
 
 h1, h2 {
   line-height: 40px;
-  font-size: 35px;
+  font-size: 38px;
+  letter-spacing: 1px;
 }
 
 h2 {
@@ -665,4 +666,46 @@ h4 {
 #construct .construct_text {
   width: 50%;
   align-self: flex-start;
+}
+#construct .construct_text h3 span {
+  font-weight: normal;
+  color: #20ad96;
+}
+#construct .open_box {
+  margin-top: 50px;
+  overflow: hidden;
+  box-shadow: 0px 8px 20px #f5f5f5, -10px 8px 20px #f5f5f5, 10px 8px 20px #f5f5f5;
+}
+#construct .open_box .title {
+  background-color: #62c5b5;
+  padding: 15px;
+  position: relative;
+}
+#construct .open_box .title h3 {
+  color: #fff;
+  font-weight: bold;
+}
+#construct .open_box .title i {
+  position: absolute;
+  right: 15px;
+  cursor: pointer;
+}
+#construct .open_box .explanation {
+  padding: 25px;
+  color: #816969;
+}
+#construct .closed_box {
+  position: relative;
+  padding: 15px;
+  overflow: hidden;
+  box-shadow: 0px 8px 20px #f5f5f5, -10px 8px 20px #f5f5f5, 10px 8px 20px #f5f5f5;
+}
+#construct .closed_box h3 {
+  color: #696969;
+}
+#construct .closed_box i {
+  position: absolute;
+  right: 15px;
+  color: #8c89a2;
+  cursor: pointer;
 }

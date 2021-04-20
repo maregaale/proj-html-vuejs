@@ -19,5 +19,59 @@
   .construct_text {
     width: 50%;
     align-self: flex-start;
+
+    h3 span {
+      font-weight: normal;
+      color: $primaryColorButtons;
+    }
+  }
+
+  .open_box {
+    margin-top: 50px;
+    overflow: hidden;
+    box-shadow: 0px 8px 20px $primaryColorSections, 
+        -10px 8px 20px $primaryColorSections, 10px 8px 20px $primaryColorSections;
+
+    .title {
+      background-color: $secondaryColorButtons;
+      padding: 15px;
+      position: relative;
+
+      h3 {
+        color: #fff;
+        font-weight: bold;
+
+      }
+      i {
+        position: absolute;
+        right: 15px;
+        cursor: pointer;
+      }
+    }
+
+    .explanation {
+      padding: 25px;
+      color: $h4ColorText;
+    }
+
+  }
+
+  .closed_box {
+    position: relative;
+    padding: 15px;
+    overflow: hidden;
+    box-shadow: 0px 8px 20px $primaryColorSections, 
+        -10px 8px 20px $primaryColorSections, 10px 8px 20px $primaryColorSections;
+
+    h3 {
+      color: $darkGreyColorText;
+    }
+
+    i {
+      position: absolute;
+      right: 15px;
+      color: $darkPurpleColorText;
+      cursor: pointer;
+    }
   }
 }
