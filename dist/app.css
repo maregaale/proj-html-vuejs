@@ -13,6 +13,10 @@ header {
   background-color: #e9e6e3;
 }
 
+section {
+  padding: 80px 0;
+}
+
 .flex {
   display: flex;
   flex-direction: row;
@@ -576,11 +580,66 @@ h1, h2 {
   font-size: 35px;
 }
 
+h2 {
+  margin: 25px 0;
+}
+
+h3 {
+  color: #333333;
+}
+
+h4 {
+  text-transform: uppercase;
+  color: #816969;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
 .btn {
   border-radius: 5px;
   padding: 13px 28px;
   border: 0;
   color: #fff;
-  background-color: #20ad96;
   font-size: 500;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.btn.btn_full {
+  background-color: #20ad96;
+}
+.btn.btn_full:hover {
+  background-color: #3f3a64;
+}
+
+#today .titles {
+  text-align: center;
+}
+#today .titles span {
+  color: #20ad96;
+  font-weight: normal;
+}
+#today .today_cards {
+  width: 100%;
+}
+#today .today_cards .today_card {
+  width: 25%;
+  padding: 8px;
+  text-align: center;
+}
+#today .today_cards .today_card p {
+  color: #816969;
+}
+#today .today_cards .today_card .btn {
+  width: 80%;
+  margin-top: 20px;
+  background-color: #fff;
+  color: #8d8aa3;
+  font-weight: bold;
+}
+#today .today_cards .today_card .btn:hover {
+  background-color: #f8f8f8;
 }

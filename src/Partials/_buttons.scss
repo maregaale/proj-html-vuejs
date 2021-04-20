@@ -3,6 +3,15 @@
   padding: 13px 28px;
   border: 0;
   color: #fff;
-  background-color: $primaryColorButtons;
   font-size: 500;
+  cursor: pointer;
+  transition: all 0.3s;
+  
+  &.btn_full {
+    background-color: $primaryColorButtons;
+
+    &:hover {
+      background-color: $colorHoverButtons;
+    }
+  }
 }

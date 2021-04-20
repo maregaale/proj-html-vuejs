@@ -1,0 +1,39 @@
+#today {
+  
+  .titles {
+    text-align: center;
+
+    span {
+      color: $primaryColorButtons;
+      font-weight: normal;
+    }
+
+  }
+
+  .today_cards {
+    width: 100%;
+
+
+    .today_card {
+      width: 25%;
+      padding: 8px;
+      text-align: center;
+
+      p {
+        color: $h4ColorText;
+      }
+
+      .btn {
+        width: 80%;
+        margin-top: 20px;
+        background-color: #fff;
+        color: $quaternaryColorText;
+        font-weight: bold;
+
+        &:hover {
+          background-color: $secondaryColorHoverButtons;
+        }
+      }
+    }
+  }
+}

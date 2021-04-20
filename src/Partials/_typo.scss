@@ -6,3 +6,23 @@ h1, h2 {
   line-height: 40px;
   font-size: $xxlFont;
 }
+
+h2 {
+  margin: 25px 0;
+}
+
+h3 {
+  color: $h3ColorText;
+}
+
+h4 {
+  text-transform: uppercase;
+  color: $h4ColorText;
+  font-size: $mFont;
+  font-weight: normal;
+}
+
+// classi
+.uppercase {
+  text-transform: uppercase;
+}
