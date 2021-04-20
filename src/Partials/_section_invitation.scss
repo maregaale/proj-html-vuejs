@@ -1,0 +1,15 @@
+#invitation {
+
+  .invitation_text {
+    width: 45%;
+
+    i {
+      color: $primaryColorButtons;
+    }
+
+    p {
+      color: $h4ColorText;
+      font-size: $sFont;
+    }
+  }
+}

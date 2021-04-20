@@ -680,6 +680,7 @@ h1, h2 {
   line-height: 40px;
   font-size: 38px;
   letter-spacing: 1px;
+  line-height: 48px;
 }
 
 h2 {
@@ -920,4 +921,15 @@ h4 {
 .course .info .lessons_students {
   color: #727272;
   font-size: 12px;
+}
+
+#invitation .invitation_text {
+  width: 45%;
+}
+#invitation .invitation_text i {
+  color: #20ad96;
+}
+#invitation .invitation_text p {
+  color: #816969;
+  font-size: 14px;
 }
