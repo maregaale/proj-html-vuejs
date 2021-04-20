@@ -287,9 +287,9 @@
 					<div class="courses">
 						<div class="container flex">
 							<!-- course -->
-							<div v-for="course in courses" class="course mrg_10">
+							<div v-for="course in courses" class="course mrg_15">
 								<!-- price -->
-								<div class="price">{{course.price}}<span>.00</span> </div>
+								<div class="price">{{course.price}}<span v-if="course.price != 'Free'">.00</span> </div>
 								<!-- /price -->
 								
 								<!-- poster -->
@@ -316,12 +316,12 @@
 									<!-- lezioni e studenti -->
 									<div class="lessons_students flex mrg_up_down_20">
 										<div class="lessons mrg_right_20">
-											<i class="far fa-file-alt"></i>
+											<i class="far fa-file-alt mrg_right_5"></i>
 											{{course.lessons}} Lessons
 										</div>
 
 										<div class="students">
-											<i class="far fa-user"></i>
+											<i class="far fa-user mrg_right_5"></i> 
 											{{course.students}} Students
 										</div>
 									</div>
@@ -334,6 +334,12 @@
 						</div>
 					</div>
 					<!-- /corsi -->
+
+					<!-- bottone -->
+					<div class="button_container">
+						<button class="btn btn_full btn_long mrg_up_down_30">View All Courses <span> &#x2192;</span></button>
+					</div>
+					<!-- /bottone -->
 				</section>
 				<!-- sezione featured_courses -->
 

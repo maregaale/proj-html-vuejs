@@ -196,6 +196,46 @@ ul a {
   margin-left: 100px;
 }
 
+.mrg_left_5 {
+  margin-left: 5px;
+}
+
+.mrg_left_10 {
+  margin-left: 10px;
+}
+
+.mrg_left_15 {
+  margin-left: 15px;
+}
+
+.mrg_left_20 {
+  margin-left: 20px;
+}
+
+.mrg_left_25 {
+  margin-left: 25px;
+}
+
+.mrg_left_30 {
+  margin-left: 30px;
+}
+
+.mrg_left_35 {
+  margin-left: 35px;
+}
+
+.mrg_left_40 {
+  margin-left: 40px;
+}
+
+.mrg_left_45 {
+  margin-left: 45px;
+}
+
+.mrg_left_50 {
+  margin-left: 50px;
+}
+
 .mrg_right_10 {
   margin-right: 10px;
 }
@@ -236,6 +276,46 @@ ul a {
   margin-right: 100px;
 }
 
+.mrg_right_5 {
+  margin-right: 5px;
+}
+
+.mrg_right_10 {
+  margin-right: 10px;
+}
+
+.mrg_right_15 {
+  margin-right: 15px;
+}
+
+.mrg_right_20 {
+  margin-right: 20px;
+}
+
+.mrg_right_25 {
+  margin-right: 25px;
+}
+
+.mrg_right_30 {
+  margin-right: 30px;
+}
+
+.mrg_right_35 {
+  margin-right: 35px;
+}
+
+.mrg_right_40 {
+  margin-right: 40px;
+}
+
+.mrg_right_45 {
+  margin-right: 45px;
+}
+
+.mrg_right_50 {
+  margin-right: 50px;
+}
+
 .mrg_10 {
   margin: 10px;
 }
@@ -274,6 +354,46 @@ ul a {
 
 .mrg_100 {
   margin: 100px;
+}
+
+.mrg_5 {
+  margin: 5px;
+}
+
+.mrg_10 {
+  margin: 10px;
+}
+
+.mrg_15 {
+  margin: 15px;
+}
+
+.mrg_20 {
+  margin: 20px;
+}
+
+.mrg_25 {
+  margin: 25px;
+}
+
+.mrg_30 {
+  margin: 30px;
+}
+
+.mrg_35 {
+  margin: 35px;
+}
+
+.mrg_40 {
+  margin: 40px;
+}
+
+.mrg_45 {
+  margin: 45px;
+}
+
+.mrg_50 {
+  margin: 50px;
 }
 
 .navbar_and_logo .container {
@@ -593,12 +713,16 @@ h4 {
   font-size: 500;
   cursor: pointer;
   transition: all 0.3s;
+  font-weight: 600;
 }
 .btn.btn_full {
   background-color: #20ad96;
 }
 .btn.btn_full:hover {
   background-color: #3f3a64;
+}
+.btn.btn_long {
+  padding: 13px 50px;
 }
 
 #today .titles {
@@ -710,8 +834,8 @@ h4 {
 #featured_courses {
   background: white;
   background: linear-gradient(180deg, white 0%, #f6f6f6 100%);
-  border-bottom-left-radius: 100% 20%;
-  border-bottom-right-radius: 100% 20%;
+  border-bottom-left-radius: 165% 20%;
+  border-bottom-right-radius: 165% 20%;
 }
 #featured_courses .title {
   text-align: center;
@@ -721,6 +845,9 @@ h4 {
   align-items: flex-start;
   justify-content: center;
   padding: 10px 0;
+}
+#featured_courses .button_container {
+  text-align: center;
 }
 
 .icon_poster {
@@ -747,7 +874,7 @@ h4 {
 }
 
 .course {
-  width: calc((100% / 3) - 20px);
+  width: calc((100% / 3) - 30px);
   border-radius: 5px 5px 0 0;
   overflow: hidden;
   position: relative;
@@ -761,6 +888,8 @@ h4 {
   color: #fff;
   font-weight: bold;
   border-radius: 0 0 0 5px;
+  min-width: 60px;
+  text-align: center;
 }
 .course .price span {
   font-size: 14px;
