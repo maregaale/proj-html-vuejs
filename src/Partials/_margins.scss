@@ -5,6 +5,12 @@
     }
 }
 
+@for $i from 1 through 10 {
+    .mrg_up_down_#{$i * 5} {
+        margin: $i * 5+px 0;
+    }
+}
+
 // margini laterali
 @for $i from 1 through 10 {
     .mrg_left_right_#{$i}0 {
