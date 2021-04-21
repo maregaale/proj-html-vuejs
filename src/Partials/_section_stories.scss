@@ -13,6 +13,7 @@
     .story {
       position: relative;
       width: calc((100% / 3) - 20px);
+      min-height: 270px;
       margin: 10px;
       background-color: #fff;
       padding: 70px 27px 27px 27px;

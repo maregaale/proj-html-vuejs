@@ -478,14 +478,14 @@
 					<!-- storie -->
 					<div class="stories_container container flex">
 						<!-- storia -->
-						<div class="story br_5">
+						<div v-for="story in stories" class="story br_5">
 							<div class="poster_container">
-								<img src="img/testimonial-avata-02.jpg" alt="testimonial-1">
+								<img :src="'img/' + story.testimonialPoster" alt="testimonial-1">
 							</div>
 
-							<p>I am free to learn at my own pace, follow my own schedule and choose the subject I like. Great study portal for people like me.</p>
-							<h3 class="uppercase">Mina Hollace</h3>
-							<p class="type">/ Freelancer</p>
+							<p>{{story.text}}</p>
+							<h3 class="uppercase">{{story.testimonialName}}</h3>
+							<p class="type">/ {{story.workType}}</p>
 						</div>
 						<!-- /storia -->
 					</div>

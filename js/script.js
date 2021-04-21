@@ -134,6 +134,26 @@ const app = new Vue ({
                 display: true,
             },
         ],
+        stories: [
+            {
+                text: "I am free to learn at my own pace, follow my own schedule and choose the subject I like. Great study portal for people like me.",
+                testimonialName: "Mina Hollace",
+                workType: "Freelancer",
+                testimonialPoster: "testimonial-avata-02.jpg",
+            },
+            {
+                text: "MaxCoach is my best choice. Their tutors are smart and professional when dealing with students.",
+                testimonialName: "Madley Pondor",
+                workType: "IT Specialist",
+                testimonialPoster: "testimonial-avata-04.jpg",
+            },
+            {
+                text: "I am happy with their arranngement of lessons and subjects. Their reflect a scientific investigation.",
+                testimonialName: "Luvic Dubble",
+                workType: "Private Tutor",
+                testimonialPoster: "testimonial-avata-01.jpg",
+            },
+        ],
     },
     
 });
