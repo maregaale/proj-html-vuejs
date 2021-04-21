@@ -1,4 +1,18 @@
 #invitation {
+  background-color: #fff;
+  position: relative;
+
+  &::before {
+    background-color: #fff;
+    content: "";
+    position: absolute;
+    display: block;
+    height: 400px;
+    width: 100%;
+    top: -400px;
+    z-index: -5;
+  }
+  
 
   .invitation_images {
     position: relative;
