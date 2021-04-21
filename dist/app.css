@@ -928,11 +928,16 @@ h4 {
   font-size: 12px;
 }
 
+#invitation .invitation_images {
+  position: relative;
+  width: 55%;
+}
+#invitation .invitation_text {
+  width: 45%;
+}
 #invitation .pace {
   align-items: flex-start;
-}
-#invitation .pace .invitation_text {
-  width: 45%;
+  justify-content: space-between;
 }
 #invitation .pace .invitation_text i {
   color: #20ad96;
@@ -941,24 +946,61 @@ h4 {
   color: #816969;
   font-size: 14px;
 }
-#invitation .pace .invitation_images {
-  position: relative;
-}
-#invitation .pace .invitation_images .invitation-1 {
+#invitation .pace .invitation-1 {
   height: 450px;
   position: relative;
   z-index: 5;
 }
-#invitation .pace .invitation_images .invitation-2 {
+#invitation .pace .invitation-2 {
   position: absolute;
   z-index: 0;
   left: -80px;
   top: 114px;
   height: 400px;
 }
-#invitation .pace .invitation_images .invitation-3 {
+#invitation .pace .invitation-3 {
   position: absolute;
   z-index: 0;
   left: 330px;
   top: 250px;
+}
+#invitation .mobile {
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  margin-top: 130px;
+}
+#invitation .mobile .invitation-4 {
+  height: 450px;
+  position: relative;
+  z-index: 5;
+  left: 100px;
+}
+#invitation .mobile .invitation-5 {
+  position: absolute;
+  z-index: 0;
+  left: -14px;
+  top: 81px;
+  height: 400px;
+}
+#invitation .mobile .invitation-6 {
+  position: absolute;
+  z-index: 0;
+  left: 375px;
+  top: 250px;
+}
+#invitation .mobile .invitation-7 {
+  position: absolute;
+  left: -106px;
+  top: 200px;
+}
+#invitation .mobile .invitation_images::after {
+  content: "";
+  position: absolute;
+  left: 466px;
+  top: 40px;
+  width: 43px;
+  height: 43px;
+  border-width: 7px;
+  border-radius: 50%;
+  border: 7px solid #ecc5ab;
 }

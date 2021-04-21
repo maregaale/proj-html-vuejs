@@ -1,8 +1,19 @@
 #invitation {
+
+  .invitation_images {
+    position: relative;
+    width: 55%;
+  }
+
+  .invitation_text {
+    width: 45%;
+  }
+  
   .pace {
     align-items: flex-start;
+    justify-content: space-between;
+
     .invitation_text {
-      width: 45%;
   
       i {
         color: $primaryColorButtons;
@@ -14,28 +25,74 @@
       }
     }
 
-    .invitation_images {
+    .invitation-1 {
+      height: 450px;
       position: relative;
+      z-index: 5;
+    }
 
-      .invitation-1 {
-        height: 450px;
-        position: relative;
-        z-index: 5;
-      }
+    .invitation-2 {
+      position: absolute;
+      z-index: 0;
+      left: -80px;
+      top: 114px;
+      height: 400px;
+    }
 
-      .invitation-2 {
+    .invitation-3 {
+      position: absolute;
+      z-index: 0;
+      left: 330px;
+      top: 250px;
+    }
+  }
+
+  .mobile {
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    margin-top: 130px;
+
+    .invitation-4 {
+      height: 450px;
+      position: relative;
+      z-index: 5;
+      left: 100px;
+    }
+
+    .invitation-5 {
+      position: absolute;
+      z-index: 0;
+      left: -14px;
+      top: 81px;
+      height: 400px;
+    }
+
+    .invitation-6 {
+      position: absolute;
+      z-index: 0;
+      left: 375px;
+      top: 250px;
+    }
+
+    .invitation-7 {
+      position: absolute;
+      left: -106px;
+      top: 200px;
+  
+    }
+
+    .invitation_images {
+
+      &::after {
+        content: "";
         position: absolute;
-        z-index: 0;
-        left: -80px;
-        top: 114px;
-        height: 400px;
-      }
-
-      .invitation-3 {
-        position: absolute;
-        z-index: 0;
-        left: 330px;
-        top: 250px;
+        left: 466px;
+        top: 40px;
+        width: 43px;
+        height: 43px;
+        border-width: 7px;
+        border-radius: 50%;
+        border: 7px solid $colorShapecircle;
       }
     }
   }
