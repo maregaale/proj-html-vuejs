@@ -33,7 +33,6 @@ const app = new Vue ({
                 chevron: true,
             }
         ],
-
         courses: [
             {
                 name: "Learning to Write as a Professional Author",
@@ -90,6 +89,50 @@ const app = new Vue ({
                 price: "$59",
             },
             
+        ],
+        events: [
+            {
+                name: "Storytelling Workshop",
+                place: "Texas, US",
+                day: "22",
+                mounth: "nov",
+                display: true,
+            },
+            {
+                name: "Painting Art Contest 2020",
+                place: "New York, US",
+                day: "10",
+                mounth: "oct",
+                display: true,
+            },
+            {
+                name: "International Art Fair 2020",
+                place: "Hamburg, Germany",
+                day: "23",
+                mounth: "nov",
+                display: true,
+            },
+            {
+                name: "Street Performance: Call for Artist",
+                place: "Illinois, US",
+                day: "15",
+                mounth: "dec",
+                display: true,
+            },
+            {
+                name: "Consumer Food Safety Education Conference",
+                place: "Illinois, US",
+                day: "22",
+                mounth: "jul",
+                display: true,
+            },
+            {
+                name: "How meditation improve your mental health?",
+                place: "Dubai",
+                day: "12",
+                mounth: "aug",
+                display: true,
+            },
         ],
     },
     

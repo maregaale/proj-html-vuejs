@@ -1004,3 +1004,7 @@ h4 {
   border-radius: 50%;
   border: 7px solid #ecc5ab;
 }
+
+#events .titles {
+  text-align: center;
+}
