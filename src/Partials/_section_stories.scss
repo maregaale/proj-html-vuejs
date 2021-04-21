@@ -8,50 +8,57 @@
   }
 
   .stories_container {
-    margin: 90px auto;
+    margin-top: 90px;
+    margin-bottom: 50px;
+  }
 
-    .story {
-      position: relative;
-      width: calc((100% / 3) - 20px);
-      min-height: 270px;
+  .bullets {
+    justify-content: center;
+
+    .bullet {
       margin: 10px;
-      background-color: #fff;
-      padding: 70px 27px 27px 27px;
-      text-align: center;
-      box-shadow: 0 0 20px #eeeeee;
-      -moz-box-shadow: 0 0 20px #eeeeee;
-      -webkit-box-shadow: 0 0 20px #eeeeee;
-      -o-box-shadow: 0 0 20px #eeeeee;
+      font-size: 9px;
+      color: #b7b5c4;
 
-      .poster_container {
-        position: absolute;
-        top: -50px;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
-        overflow: hidden;
-
-        img {
-          width: 100%;
-        }
-      }
-
-      p {
-        color: #3f3a64;
-      }
-
-      h3 {
-        font-size: $mFont;
-        margin-top: 40px;
-        margin-bottom: 20px;
-      }
-
-      .type {
-        color: #888888;
+      &.active {
         font-size: $sFont;
+        color: $primaryColorText;
       }
+    }
+  }
+
+  .certification {
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border: 7px solid $secondaryColorShapecircle;
+    }
+
+    .certification_1 {
+      position: absolute;
+      left: 20px;
+      top: 70px;
+    }
+
+    h2 {
+      font-size: 21px;
+      margin: 0;
+      line-height: 38px;
+    }
+
+    h3 {
+      font-size: $xlFont;
+      letter-spacing: 1px;
+      color: $primaryColorText;
     }
   }
 }

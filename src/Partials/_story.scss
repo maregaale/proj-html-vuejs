@@ -1,0 +1,43 @@
+.story {
+  position: relative;
+  width: calc((100% / 3) - 20px);
+  min-height: 270px;
+  margin: 10px;
+  background-color: #fff;
+  padding: 70px 27px 27px 27px;
+  text-align: center;
+  box-shadow: 0 0 20px #eeeeee;
+  -moz-box-shadow: 0 0 20px #eeeeee;
+  -webkit-box-shadow: 0 0 20px #eeeeee;
+  -o-box-shadow: 0 0 20px #eeeeee;
+
+  .poster_container {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  p {
+    color: #3f3a64;
+  }
+
+  h3 {
+    font-size: $mFont;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+  .type {
+    color: #888888;
+    font-size: $sFont;
+  }
+}
