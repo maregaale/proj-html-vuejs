@@ -435,20 +435,23 @@
 
 					<!-- eventi -->
 					<div class="events_container container flex">
-						<div v-for="event in events" class="event flex br_5">
-							<div class="title_and_place">
-								<div class="place flex">
-									<img class="mrg_right_10" src="img/map_marker.svg" alt="map marker">
-									<p>{{event.place}}</p>
+						<div v-for="event in events" class="event br_5">
+							<div class="overlay flex">
+
+								<div class="title_and_place">
+									<div class="place flex">
+										<img class="mrg_right_10" src="img/map_marker.svg" alt="map marker">
+										<p>{{event.place}}</p>
+									</div>
+	
+									<h3 class="mrg_up_down_15">{{event.name}}</h3>
 								</div>
-
-								<h3 class="mrg_up_down_15">{{event.name}}</h3>
-							</div>
-
-							<div class="date_and_button">
-								<p class="day">{{event.day}}</p>
-								<p class="mounth">{{event.mounth}}</p>
-								<button class="btn btn_full btn_events">Get ticket</button>
+	
+								<div class="date_and_button">
+									<p class="day">{{event.day}}</p>
+									<p class="mounth">{{event.mounth}}</p>
+									<button class="btn btn_full btn_events">Get ticket</button>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -465,7 +468,28 @@
 
 				<!-- sezione stories -->
 				<section id="stories">
+					<!-- titoli -->
+					<div class="stories_titles container">
+						<h4>people are praising maxcoach</h4>
+						<h2>What make they <span>love us?</span></h2>
+					</div>
+					<!-- /titoli -->
 
+					<!-- storie -->
+					<div class="stories_container container flex">
+						<!-- storia -->
+						<div class="story br_5">
+							<div class="poster_container">
+								<img src="img/testimonial-avata-02.jpg" alt="testimonial-1">
+							</div>
+
+							<p>I am free to learn at my own pace, follow my own schedule and choose the subject I like. Great study portal for people like me.</p>
+							<h3 class="uppercase">Mina Hollace</h3>
+							<p class="type">/ Freelancer</p>
+						</div>
+						<!-- /storia -->
+					</div>
+					<!-- /storie -->
 				</section>
 				<!-- /sezione stories -->
 			</main>

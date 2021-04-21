@@ -8,51 +8,73 @@
 
   .events_container {
     flex-wrap: wrap;
+    margin-top: 40px;
 
     .event {
       width: calc(50% - 20px);
       margin: 10px;
-      padding: 20px;
       background-color: $colorBody;
-  
-      .title_and_place {
-        width: 70%;
-        align-self: flex-start;
-        margin-top: 7px;
-  
-        img {
-          width: 15px;
+      transition: all 0.3s;
+      overflow: hidden;
+      position: relative;
+      
+      &:hover {
+        background-color: #fff;
+        box-shadow: 0 0 20px #eeeeee;
+        -moz-box-shadow: 0 0 20px #eeeeee;
+        -webkit-box-shadow: 0 0 20px #eeeeee;
+        -o-box-shadow: 0 0 20px #eeeeee;
+
+        .overlay {
+          border-left-color: $primaryColorButtons;
         }
-  
-        p {
-          color: $secondaryColorText;
-          font-size: $sFont;
+      }
+
+      .overlay {        
+        padding: 20px;
+        border: 3px solid transparent;
+
+        .title_and_place {
+          width: 70%;
+          align-self: flex-start;
+          margin-top: 7px;
+    
+          img {
+            width: 15px;
+          }
+    
+          p {
+            color: $secondaryColorText;
+            font-size: $sFont;
+          }
+    
+          h3 {
+            text-align: left;
+          }
         }
-  
-        h3 {
-          text-align: left;
+    
+        .date_and_button {
+          width: 30%;
+          text-align: center;
+    
+          .day {
+            color: $primaryColorButtons;
+            font-size: $xxlFont;
+            font-weight: normal;
+          }
+    
+          .mounth {
+            margin-bottom: 7px;
+          }
+    
+          .btn.btn_events {
+    
+            padding: 8px 25px;
+          }
         }
       }
   
-      .date_and_button {
-        width: 30%;
-        text-align: center;
-  
-        .day {
-          color: $primaryColorButtons;
-          font-size: $xxlFont;
-          font-weight: normal;
-        }
-  
-        .mounth {
-          margin-bottom: 7px;
-        }
-  
-        .btn.btn_events {
-  
-          padding: 8px 25px;
-        }
-      }
+      
     }
   }
 
