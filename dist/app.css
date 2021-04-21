@@ -1048,39 +1048,46 @@ h4 {
 #events .titles {
   text-align: center;
 }
-#events .event {
+#events .events_container {
+  flex-wrap: wrap;
+}
+#events .events_container .event {
   width: calc(50% - 20px);
   margin: 10px;
   padding: 20px;
   background-color: #f8f8f8;
 }
-#events .event .title_and_place {
+#events .events_container .event .title_and_place {
   width: 70%;
   align-self: flex-start;
   margin-top: 7px;
 }
-#events .event .title_and_place img {
+#events .events_container .event .title_and_place img {
   width: 15px;
 }
-#events .event .title_and_place p {
+#events .events_container .event .title_and_place p {
   color: #8c8c8c;
   font-size: 14px;
 }
-#events .event .title_and_place h3 {
+#events .events_container .event .title_and_place h3 {
   text-align: left;
 }
-#events .event .date_and_button {
+#events .events_container .event .date_and_button {
   width: 30%;
   text-align: center;
 }
-#events .event .date_and_button .day {
+#events .events_container .event .date_and_button .day {
   color: #20ad96;
   font-size: 38px;
   font-weight: normal;
 }
-#events .event .date_and_button .mounth {
+#events .events_container .event .date_and_button .mounth {
   margin-bottom: 7px;
 }
-#events .event .date_and_button .btn.btn_events {
+#events .events_container .event .date_and_button .btn.btn_events {
   padding: 8px 25px;
+}
+#events .link_all_events {
+  text-align: center;
+  font-size: 14px;
 }

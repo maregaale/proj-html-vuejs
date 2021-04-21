@@ -433,25 +433,32 @@
 					</div>
 
 					<!-- eventi -->
-					<div class="events_container container">
-						<div class="event flex br_5">
+					<div class="events_container container flex">
+						<div v-for="event in events" class="event flex br_5">
 							<div class="title_and_place">
 								<div class="place flex">
 									<img class="mrg_right_10" src="img/map_marker.svg" alt="map marker">
-									<p>Texas, US</p>
+									<p>{{event.place}}</p>
 								</div>
 
-								<h3 class="mrg_up_down_15">Storytelling</h3>
+								<h3 class="mrg_up_down_15">{{event.name}}</h3>
 							</div>
 
 							<div class="date_and_button">
-								<p class="day">22</p>
-								<p class="mounth">nov</p>
+								<p class="day">{{event.day}}</p>
+								<p class="mounth">{{event.mounth}}</p>
 								<button class="btn btn_full btn_events">Get ticket</button>
 							</div>
 						</div>
 					</div>
 					<!-- /eventi -->
+
+					<!-- link a tutti gli eventi -->
+					<div class="link_all_events mrg_up_down_50">
+						Excited about our event? 
+						<a href="">View all events <span>&#x2192;</span></a>
+					</div>
+					<!-- /link a tutti gli eventi -->
 				</section>
 				<!-- /sezione events -->
 
