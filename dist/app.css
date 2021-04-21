@@ -1163,7 +1163,7 @@ h4 {
 }
 #stories .certification {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 70px;
   position: relative;
 }
 #stories .certification::after {
@@ -1180,6 +1180,11 @@ h4 {
   position: absolute;
   left: 20px;
   top: 70px;
+}
+#stories .certification .certification_2 {
+  position: absolute;
+  right: 0;
+  top: 65px;
 }
 #stories .certification h2 {
   font-size: 21px;

@@ -29,7 +29,7 @@
 
   .certification {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 70px;
     position: relative;
 
     &::after {
@@ -47,6 +47,12 @@
       position: absolute;
       left: 20px;
       top: 70px;
+    }
+
+    .certification_2 {
+      position: absolute;
+      right: 0;
+      top: 65px;
     }
 
     h2 {
