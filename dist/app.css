@@ -1243,6 +1243,13 @@ h4 {
 footer {
   background-color: #fff;
 }
+footer .container {
+  align-items: flex-start;
+  justify-content: space-between;
+}
+footer address {
+  width: 77%;
+}
 footer address h3 {
   padding-bottom: 10px;
 }
@@ -1259,4 +1266,41 @@ footer address .social {
 }
 footer address .social i {
   margin-right: 20px;
+}
+footer .footer_nav {
+  align-items: flex-start;
+}
+footer .footer_nav h3 {
+  padding-bottom: 15px;
+}
+footer .footer_nav .explore, footer .footer_nav .information {
+  flex-direction: column;
+  align-items: flex-start;
+}
+footer .footer_nav .explore {
+  margin-right: 20px;
+}
+footer .footer_nav .explore li {
+  width: 50%;
+}
+footer .footer_nav .explore ul, footer .footer_nav .information ul {
+  flex-wrap: wrap;
+}
+footer .footer_nav .explore ul li, footer .footer_nav .information ul li {
+  padding: 10px 0;
+}
+footer .footer_nav .explore ul li a, footer .footer_nav .information ul li a {
+  font-size: 14px;
+  color: #696969;
+}
+footer .footer_nav .information {
+  margin-left: 30px;
+}
+footer .footer_nav .information li {
+  width: 100%;
+}
+footer .copyright {
+  margin-top: 70px;
+  text-align: center;
+  color: #b4b4b4;
 }

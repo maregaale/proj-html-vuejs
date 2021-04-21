@@ -154,6 +154,58 @@ const app = new Vue ({
                 testimonialPoster: "testimonial-avata-01.jpg",
             },
         ],
+        footerLinks: [
+            {
+                name: "Start Here",
+                category: "Explore",
+                display: true,
+            },
+            {
+                name: "Success story",
+                category: "Explore",
+                display: true,
+            },
+            {
+                name: "Blog",
+                category: "Explore",
+                display: true,
+            },
+            {
+                name: "Courses",
+                category: "Explore",
+                display: true,
+            },
+            {
+                name: "About us",
+                category: "Explore",
+                display: true,
+            },
+            {
+                name: "Contact us",
+                category: "Explore",
+                display: true,
+            },
+            {
+                name: "Membership",
+                category: "Information",
+                display: true,
+            },
+            {
+                name: "Purchase guide",
+                category: "Information",
+                display: true,
+            },
+            {
+                name: "Privacy policy",
+                category: "Information",
+                display: true,
+            },
+            {
+                name: "Terms of services",
+                category: "Information",
+                display: true,
+            },
+        ],
     },
     
 });
