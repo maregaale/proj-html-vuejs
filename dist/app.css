@@ -951,17 +951,23 @@ aside .arrow_up {
   right: 10px;
   bottom: 4%;
   border-radius: 50%;
-  background-color: #20ad96;
+  background-color: #0088CC;
   font-size: 21px;
   line-height: 47px;
   padding-bottom: 6px;
   overflow: hidden;
+  cursor: pointer;
+  opacity: 0;
+  text-align: center;
+  transition: all 0.3s;
 }
-aside .arrow_up a {
+aside .arrow_up span {
   text-decoration: none;
   color: #fff;
   width: 100%;
-  text-align: center;
+}
+aside .arrow_up.visible {
+  opacity: 1;
 }
 
 .course {

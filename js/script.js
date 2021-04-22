@@ -1,6 +1,7 @@
 const app = new Vue ({
     el: "#root",
     data: {
+        isVisible: false,
         mainNavLinks: [
             {
                 name: "Home",
@@ -88,7 +89,6 @@ const app = new Vue ({
                 students: 76,
                 price: "$59",
             },
-            
         ],
         events: [
             {
@@ -207,5 +207,21 @@ const app = new Vue ({
             },
         ],
     },
-    
+    methods: {
+        // scroll up
+        backToTop: function () {
+            $('html,body').animate({ scrollTop: 0 }, 'slow');
+        },
+        // visibilità freccia su
+        visible: function (params) {
+            this.isVisible = true;
+
+            if ($(document).scrollTop() < 50) {
+                this.isVisible = false;
+            }
+        }
+    },
+    created: function () {        
+        window.addEventListener('scroll', this.visible);
+    },
 });

@@ -40,18 +40,27 @@ aside {
     right: 10px;
     bottom: 4%;
     border-radius: 50%;
-    background-color: #20ad96;
+    background-color: $primaryColorButtons;
     font-size: 21px;
     line-height: 47px;
     padding-bottom: 6px;
     overflow: hidden;
+    cursor: pointer;
+    opacity: 0;
+    text-align: center;
+    transition: all 0.3s;
     
-    a {
+    span {
       text-decoration: none;
       color: #fff;
       width: 100%;
-      text-align: center;
+    }
+
+    &.visible {
+      opacity: 1;
     }
   }
+
+  
 }
   

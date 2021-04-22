@@ -15,9 +15,13 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />        <!-- /font awesome -->
 		<!-- /font awesome -->
 
-		<!-- vueJs -->
+		<!-- jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<!-- /jQuery -->
+
+		<!-- VueJs -->
 		<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
-		<!-- /vueJs -->        
+		<!-- /VueJs -->        
 
 		<!-- foglio di stile -->
 		<link rel="stylesheet" href="dist/app.css">
@@ -52,6 +56,7 @@
 								</ul>
 							</div>
 							<!-- main_nav -->
+
 							<!-- icone shopping e user -->
 							<div class="shopping_and_user flex">
 								<div class="shopping">
@@ -74,7 +79,7 @@
 						<!-- /box navbar e searching -->
 					</div>
 				</div>
-				<!-- navbar e logo -->
+				<!-- /navbar e logo -->
 	
 				<!-- hero -->
 				<div class="hero">
@@ -118,8 +123,8 @@
 					<!-- /locandina laterale con incone -->
 
 					<!-- freccia di ritorno -->
-					<div class="arrow_up flex">
-						<a href="#nav_top">&#x2191;</a>
+					<div @click="backToTop" class="arrow_up" :class="{visible: isVisible}">
+						<span>&#x2191;</span>
 					</div>
 					<!-- /freccia di ritorno -->
 				</aside>
@@ -229,7 +234,7 @@
 									<i class="fas fa-plus-circle"></i>
 								</h3>
 							</div>
-							<!-- closed box -->
+							<!-- /closed box -->
 
 							<!-- closed box -->
 							<div class="closed_box br_5 mrg_up_down_20">
@@ -237,15 +242,10 @@
 									<i class="fas fa-plus-circle"></i>
 								</h3>
 							</div>
-							<!-- closed box -->
-
-
+							<!-- /closed box -->
 						</div>
 						<!-- /parte destra testo -->
-
-
 					</div>
-
 				</section>
 				<!-- /sezione construct -->
 
@@ -279,7 +279,6 @@
 							<h5 class="uppercase">satisfaction rate</h5>
 						</div>
 						<!-- /goal -->
-
 					</div>
 				</section>
 				<!-- /sezione goals -->
@@ -340,7 +339,6 @@
 								<!-- /info -->
 							</div>
 							<!-- /course -->
-
 						</div>
 					</div>
 					<!-- /corsi -->
@@ -350,7 +348,6 @@
 						<button class="btn btn_full btn_long mrg_up_down_30">View All Courses <span> &#x2192;</span></button>
 					</div>
 					<!-- /bottone -->
-
 				</section>
 				<!-- /sezione featured_courses -->
 				
