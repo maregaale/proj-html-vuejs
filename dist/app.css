@@ -12,6 +12,7 @@ body {
 
 header {
   background-color: #e9e6e3;
+  height: 100vh;
 }
 
 section {
@@ -493,7 +494,7 @@ ul a {
   outline: transparent;
 }
 .navbar_and_logo .container .searching i {
-  color: #20ad96;
+  color: #0088CC;
   cursor: pointer;
 }
 
@@ -682,10 +683,10 @@ ul a {
 }
 
 .hero {
-  height: 600px;
+  height: calc( 100% - 140px);
   position: relative;
   text-align: right;
-  padding-top: 40px;
+  margin-top: 60px;
 }
 .hero::before {
   position: absolute;
@@ -715,6 +716,7 @@ ul a {
 .hero .images_hero_container img {
   height: 100%;
   position: relative;
+  top: 45px;
 }
 
 h1, h2 {
@@ -732,7 +734,7 @@ h2 {
   margin: 25px 0;
 }
 h2 span {
-  color: #20ad96;
+  color: #0088CC;
   font-weight: normal;
 }
 
@@ -769,7 +771,7 @@ p {
   outline: none;
 }
 .btn.btn_full {
-  background-color: #20ad96;
+  background-color: #0088CC;
 }
 .btn.btn_full:hover {
   background-color: #3f3a64;
@@ -832,7 +834,7 @@ p {
 }
 #construct .construct_text h3 span {
   font-weight: normal;
-  color: #20ad96;
+  color: #0088CC;
 }
 #construct .open_box {
   margin-top: 50px;
@@ -885,7 +887,7 @@ p {
   width: 25%;
 }
 #goals .goal h2 {
-  color: #20ad96;
+  color: #0088CC;
   margin: 0;
   margin-bottom: 20px;
 }
@@ -977,7 +979,7 @@ aside .arrow_up a {
   position: absolute;
   top: 0;
   right: 0;
-  background-color: #20ad96;
+  background-color: #0088CC;
   padding: 7px;
   color: #fff;
   font-weight: bold;
@@ -1047,7 +1049,7 @@ aside .arrow_up a {
   justify-content: space-between;
 }
 #invitation .pace .invitation_text i {
-  color: #20ad96;
+  color: #0088CC;
 }
 #invitation .pace .invitation-1 {
   height: 450px;
@@ -1134,7 +1136,7 @@ aside .arrow_up a {
   -o-box-shadow: 0 0 20px #eeeeee;
 }
 #events .events_container .event:hover .overlay {
-  border-left-color: #20ad96;
+  border-left-color: #0088CC;
 }
 #events .events_container .event .overlay {
   padding: 20px;
@@ -1160,7 +1162,7 @@ aside .arrow_up a {
   text-align: center;
 }
 #events .events_container .event .overlay .date_and_button .day {
-  color: #20ad96;
+  color: #0088CC;
   font-size: 38px;
   font-weight: normal;
 }
@@ -1176,7 +1178,7 @@ aside .arrow_up a {
   color: #8c89a2;
 }
 #events .link_all_events a {
-  color: #20ad96;
+  color: #0088CC;
   text-decoration: none;
   font-weight: bold;
   border-bottom: 1px solid #e0e0e0;

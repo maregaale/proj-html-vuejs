@@ -1,8 +1,8 @@
 .hero {
-  height: 600px;
+  height: calc( 100% - 140px);
   position: relative;
   text-align: right;
-  padding-top: 40px;
+  margin-top: 60px;
   
 
   &::before {
@@ -37,6 +37,7 @@
     img {
       height: 100%;
       position: relative;
+      top: 45px;
     }
   }
 
