@@ -20,13 +20,13 @@ footer {
       margin: 15px 0;
     }
 
-    .social {
+    .social ul {
       padding-top: 30px;
-      color: $colorSocialAndCopyright;
-      font-size: $lFont;
 
-      i {
-        margin-right: 20px;
+      a {
+        color: $colorSocialAndCopyright;
+        font-size: $lFont;
+        margin-right: 30px;
       }
     }
   }

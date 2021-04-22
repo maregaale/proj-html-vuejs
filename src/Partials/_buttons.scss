@@ -7,6 +7,10 @@
   cursor: pointer;
   transition: all 0.3s;
   font-weight: 600;
+
+  &:focus {
+    outline: none;
+  }
   
   &.btn_full {
     background-color: $primaryColorButtons;
