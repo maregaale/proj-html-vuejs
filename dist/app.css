@@ -900,9 +900,17 @@ h4 {
   text-align: center;
 }
 
-.icon_poster {
+aside {
   position: fixed;
-  top: 150px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 67px;
+  z-index: 100;
+}
+aside .icon_poster {
+  position: absolute;
+  top: 20%;
   right: 0;
   display: flex;
   flex-direction: column;
@@ -911,17 +919,35 @@ h4 {
   border-radius: 5px 0 0 5px;
   background-color: #fff;
   box-shadow: -3px 0 10px -2px rgba(0, 0, 0, 0.1);
-  z-index: 100;
 }
-.icon_poster * {
+aside .icon_poster * {
   margin: 4px;
 }
-.icon_poster img {
+aside .icon_poster img {
   width: 18px;
 }
-.icon_poster i {
+aside .icon_poster i {
   font-size: 18px;
   color: #000;
+}
+aside .arrow_up {
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  right: 10px;
+  bottom: 4%;
+  border-radius: 50%;
+  background-color: #20ad96;
+  font-size: 21px;
+  line-height: 47px;
+  padding-bottom: 6px;
+  overflow: hidden;
+}
+aside .arrow_up a {
+  text-decoration: none;
+  color: #fff;
+  width: 100%;
+  text-align: center;
 }
 
 .course {
