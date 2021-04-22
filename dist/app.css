@@ -12,7 +12,8 @@ body {
 
 header {
   background-color: #e9e6e3;
-  height: 100vh;
+  height: 755px;
+  overflow: hidden;
 }
 
 section {
@@ -683,20 +684,19 @@ ul a {
 }
 
 .hero {
-  height: calc( 100% - 140px);
+  height: calc( 100% - 80px);
   position: relative;
   text-align: right;
-  margin-top: 60px;
 }
 .hero::before {
   position: absolute;
   z-index: 0;
   content: "";
-  left: 0;
-  right: 0;
-  bottom: 0;
+  left: -86px;
+  right: -55px;
+  bottom: -52px;
   top: 300px;
-  background-image: url("../img/jumbo-overlay.svg");
+  background-image: url(../img/jumbo-overlay.svg);
   background-repeat: no-repeat;
   transform: rotateX(180deg);
 }
@@ -716,7 +716,7 @@ ul a {
 .hero .images_hero_container img {
   height: 100%;
   position: relative;
-  top: 45px;
+  top: 80px;
 }
 
 h1, h2 {
