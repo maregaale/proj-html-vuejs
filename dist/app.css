@@ -747,6 +747,10 @@ h4 {
   font-weight: normal;
 }
 
+p {
+  line-height: 27px;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
@@ -786,11 +790,13 @@ h4 {
 }
 #today .today_cards .today_card {
   width: 25%;
-  padding: 8px;
+  padding: 14px;
   text-align: center;
 }
 #today .today_cards .today_card p {
   color: #816969;
+  line-height: 24px;
+  font-size: 14px;
 }
 #today .today_cards .today_card .btn {
   width: 80%;
@@ -841,7 +847,7 @@ h4 {
 #construct .open_box .title h3 {
   color: #fff;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 16px;
 }
 #construct .open_box .title i {
   position: absolute;
@@ -849,8 +855,10 @@ h4 {
   cursor: pointer;
 }
 #construct .open_box .explanation {
-  padding: 25px;
+  padding: 25px 36px 25px 25px;
   color: #816969;
+  font-size: 14px;
+  line-height: 24px;
 }
 #construct .closed_box {
   position: relative;
@@ -860,6 +868,7 @@ h4 {
 }
 #construct .closed_box h3 {
   color: #696969;
+  font-size: 16px;
 }
 #construct .closed_box i {
   position: absolute;
@@ -1021,12 +1030,17 @@ aside .arrow_up a {
   top: -400px;
   z-index: -5;
 }
+#invitation p {
+  color: #816969;
+  font-size: 14px;
+}
 #invitation .invitation_images {
   position: relative;
   width: 55%;
 }
 #invitation .invitation_text {
   width: 45%;
+  padding-right: 50px;
 }
 #invitation .pace {
   align-items: flex-start;
@@ -1034,10 +1048,6 @@ aside .arrow_up a {
 }
 #invitation .pace .invitation_text i {
   color: #20ad96;
-}
-#invitation .pace .invitation_text p {
-  color: #816969;
-  font-size: 14px;
 }
 #invitation .pace .invitation-1 {
   height: 450px;
@@ -1233,10 +1243,10 @@ aside .arrow_up a {
 .story {
   position: relative;
   width: calc((100% / 3) - 20px);
-  min-height: 270px;
+  min-height: 310px;
   margin: 10px;
   background-color: #fff;
-  padding: 70px 27px 27px 27px;
+  padding: 70px 42px 27px 42px;
   text-align: center;
   box-shadow: 0 0 20px #eeeeee;
   -moz-box-shadow: 0 0 20px #eeeeee;
@@ -1258,6 +1268,7 @@ aside .arrow_up a {
 }
 .story p {
   color: #3f3a64;
+  font-size: 15px;
 }
 .story h3 {
   font-size: 16px;
@@ -1286,7 +1297,7 @@ footer address p, footer address a {
   font-size: 14px;
   color: #696969;
   text-decoration: none;
-  margin: 15px 0;
+  margin: 12px 0;
 }
 footer address .social ul {
   padding-top: 30px;

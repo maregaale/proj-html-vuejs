@@ -1,10 +1,10 @@
 .story {
   position: relative;
   width: calc((100% / 3) - 20px);
-  min-height: 270px;
+  min-height: 310px;
   margin: 10px;
   background-color: #fff;
-  padding: 70px 27px 27px 27px;
+  padding: 70px 42px 27px 42px;
   text-align: center;
   box-shadow: 0 0 20px #eeeeee;
   -moz-box-shadow: 0 0 20px #eeeeee;
@@ -28,6 +28,7 @@
 
   p {
     color: #3f3a64;
+    font-size: 15px;
   }
 
   h3 {

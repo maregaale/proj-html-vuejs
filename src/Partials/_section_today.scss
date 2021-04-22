@@ -13,11 +13,13 @@
 
     .today_card {
       width: 25%;
-      padding: 8px;
+      padding: 14px;
       text-align: center;
 
       p {
         color: $h4ColorText;
+        line-height: 24px;
+        font-size: $sFont;
       }
 
       .btn {
